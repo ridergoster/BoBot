@@ -13,6 +13,7 @@ public class Bot
 		new BonjourCell(),
 		new BonjourWithNameCell(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		new TodayCell(),
 		new AuRevoirCell(),
 		new SalutCell
@@ -21,6 +22,11 @@ public class Bot
 		new AurevoirCell(),
 		new TodayCell()
 >>>>>>> master
+=======
+		new SalutCell(),
+		new AuRevoirCell(),
+		new TodayCell()
+>>>>>>> 7d0ebb2cfc4b4f4260ecc58953068ffcadce13a6
 	};
 
 	/**
