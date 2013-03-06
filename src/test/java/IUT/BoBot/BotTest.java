@@ -43,4 +43,16 @@ public class BotTest
     {
     	assertEquals ("salut", bot.ask("salut"));
     }
+    
+    @Test
+    public void Numeral2Roman()
+    {
+    	assertEquals("I", bot.ask("1 en romain?"));
+    }
+    
+    @Test
+    public void Roman2Numeral()
+    {
+    	assertEquals("6", bot.ask("VI en nombre arabe?"));
+    }
 }
