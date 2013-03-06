@@ -20,6 +20,11 @@ public class BotTest
     {
         assertEquals("Bonjour!", bot.ask("Bonjour"));
     }
+    @Test
+    public void testAurevoir()
+    {
+        assertEquals("Au revoir!", bot.ask("Merci pour tout. Au revoir"));
+    }
     
     @Test
     public void testJeMAppelle()
