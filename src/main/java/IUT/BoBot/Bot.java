@@ -14,6 +14,8 @@ public class Bot
 		new BonjourWithNameCell(),
 		new SalutCell(),
 		new AuRevoirCell(),
+		new Numeral2RomanCell(),
+		new Roman2NumeralCell(),
 		new TodayCell()
 	};
 
