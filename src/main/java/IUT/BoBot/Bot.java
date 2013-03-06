@@ -12,8 +12,9 @@ public class Bot
 	final SmartCell[] smartCells = new SmartCell[] {
 		new BonjourCell(),
 		new BonjourWithNameCell(),
-		new TodayCell(),
-		new SalutCell()
+		new SalutCell(),
+		new AurevoirCell(),
+		new TodayCell()
 	};
 
 	/**
